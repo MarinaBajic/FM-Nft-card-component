@@ -119,11 +119,12 @@ main {
         color: $line;
     }
 
-    section {
+    .creation {
         display: flex;
         align-items: center;
         gap: 1em;
-        margin: .6em 0 0;
+        padding-top: 1em;
+        border-top: .05em solid $line;
 
         .avatar {
             width: 10%;

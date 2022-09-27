@@ -92,22 +92,23 @@ main .stats .clock {
 main .line {
   color: hsl(215deg, 32%, 27%);
 }
-main section {
+main .creation {
   display: flex;
   align-items: center;
   gap: 1em;
-  margin: 0.6em 0 0;
+  padding-top: 1em;
+  border-top: 0.05em solid hsl(215deg, 32%, 27%);
 }
-main section .avatar {
+main .creation .avatar {
   width: 10%;
   border: 0.1em solid white;
   border-radius: 50%;
 }
-main section span {
+main .creation span {
   cursor: pointer;
   color: white;
 }
-main section span:hover {
+main .creation span:hover {
   color: hsl(178deg, 100%, 50%);
 }
 
