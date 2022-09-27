@@ -11,10 +11,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -32,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [frontendmentor.io/solutions/](https://www.frontendmentor.io/solutions/ntf-card-using-flex-and-scss-03v1aBr14b)
 - Live Site URL: [frontend-mentor-nft-preview-card-component-marina.vercel.app](https://frontend-mentor-nft-preview-card-component-marina.vercel.app/)
 
 ## My process
