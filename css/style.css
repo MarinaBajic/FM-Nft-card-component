@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-size: 1rem;
+  background: hsl(217deg, 54%, 11%);
+  color: hsl(215deg, 51%, 70%);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  background: hsl(216deg, 50%, 16%);
+  border-radius: 0.8em;
+  min-width: 12em;
+  width: 17em;
+  margin: 2em;
+  padding: 1.4em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7em;
+  position: relative;
+}
+main img {
+  width: 100%;
+  border-radius: 0.5em;
+}
+main .on-hover {
+  height: 50.1%;
+  width: calc(100% - 2.8em);
+  border-radius: 0.5em;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .on-hover img {
+  width: 2.5em;
+  height: 2.5em;
+  visibility: hidden;
+}
+main .on-hover:hover {
+  cursor: pointer;
+  background: rgba(0, 255, 247, 0.45);
+}
+main .on-hover:hover img {
+  visibility: visible;
+}
+main h1 {
+  font-size: 1.4em;
+  color: white;
+  margin-top: 0.5em;
+}
+main h1:hover {
+  cursor: pointer;
+  color: hsl(178deg, 100%, 50%);
+}
+main p {
+  line-height: 1.5em;
+}
+main .stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5em 0;
+}
+main .stats p {
+  flex-shrink: 0;
+}
+main .stats .stat {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+main .stats .cyan {
+  color: hsl(178deg, 100%, 50%);
+  font-weight: 600;
+}
+main .stats .eth {
+  width: 13%;
+}
+main .stats .clock {
+  width: 20%;
+}
+main .line {
+  color: hsl(215deg, 32%, 27%);
+}
+main section {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  margin: 0.6em 0 0;
+}
+main section .avatar {
+  width: 10%;
+  border: 0.1em solid white;
+  border-radius: 50%;
+}
+main section span {
+  cursor: pointer;
+  color: white;
+}
+main section span:hover {
+  color: hsl(178deg, 100%, 50%);
+}
+
+footer {
+  font-size: 11px;
+  text-align: center;
+}
+footer a {
+  color: hsl(228deg, 45%, 44%);
+}/*# sourceMappingURL=style.css.map */
